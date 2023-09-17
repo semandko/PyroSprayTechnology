@@ -1,0 +1,329 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:4069 U1
+U 1 1 64EF89F8
+P 3600 3150
+F 0 "U1" H 3600 3467 50  0000 C CNN
+F 1 "4069" H 3600 3376 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3600 3150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 3600 3150 50  0001 C CNN
+	1    3600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4069 U2
+U 2 1 64EFA363
+P 4600 3150
+F 0 "U2" H 4600 3467 50  0000 C CNN
+F 1 "4069" H 4600 3376 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4600 3150 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf" H 4600 3150 50  0001 C CNN
+	2    4600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 64EFB05E
+P 3050 2450
+F 0 "R1" H 3109 2496 50  0000 L CNN
+F 1 "100k" H 3109 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3109 2359 50  0001 L CNN
+F 3 "~" H 3050 2450 50  0001 C CNN
+	1    3050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 64EFB576
+P 4150 2900
+F 0 "R2" H 4209 2946 50  0000 L CNN
+F 1 "0K1" H 4209 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4209 2809 50  0001 L CNN
+F 3 "~" H 4150 2900 50  0001 C CNN
+	1    4150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 64EFBEBA
+P 5400 3150
+F 0 "R3" V 5596 3150 50  0000 C CNN
+F 1 "2k" V 5505 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5400 3150 50  0001 C CNN
+F 3 "~" H 5400 3150 50  0001 C CNN
+	1    5400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 64EFC76A
+P 1050 1050
+F 0 "J1" H 1078 1026 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 1078 935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1050 1050 50  0001 C CNN
+F 3 "~" H 1050 1050 50  0001 C CNN
+	1    1050 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 64EFDA1F
+P 7250 4250
+F 0 "J3" H 7278 4226 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 7278 4135 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7250 4250 50  0001 C CNN
+F 3 "~" H 7250 4250 50  0001 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 64EFE5E2
+P 3850 2450
+F 0 "J2" H 3958 2731 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3958 2640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3850 2450 50  0001 C CNN
+F 3 "~" H 3850 2450 50  0001 C CNN
+	1    3850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC846 Q1
+U 1 1 64F06430
+P 5850 3150
+F 0 "Q1" H 6041 3196 50  0000 L CNN
+F 1 "BC846" H 6041 3105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6050 3075 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 5850 3150 50  0001 L CNN
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC846 Q2
+U 1 1 64F0809D
+P 6400 3450
+F 0 "Q2" H 6591 3496 50  0000 L CNN
+F 1 "BC846" H 6591 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6600 3375 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 6400 3450 50  0001 L CNN
+	1    6400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BD237 Q3
+U 1 1 64F10E20
+P 6950 3750
+F 0 "Q3" H 7142 3796 50  0000 L CNN
+F 1 "BD237" H 7142 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 7150 3675 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Micro%20Commercial%20PDFs/BD233,235,237.pdf" H 6950 3750 50  0001 L CNN
+	1    6950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 64F12EE7
+P 5100 2500
+F 0 "C1" H 5192 2546 50  0000 L CNN
+F 1 "1n" H 5192 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5100 2500 50  0001 C CNN
+F 3 "~" H 5100 2500 50  0001 C CNN
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 64F13652
+P 1500 1100
+F 0 "C2" H 1592 1146 50  0000 L CNN
+F 1 "100n" H 1592 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1500 1100 50  0001 C CNN
+F 3 "~" H 1500 1100 50  0001 C CNN
+	1    1500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 64F13FB9
+P 2300 1150
+F 0 "C3" H 2418 1196 50  0000 L CNN
+F 1 "1000mk" H 2418 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_10x10.2" H 2338 1000 50  0001 C CNN
+F 3 "~" H 2300 1150 50  0001 C CNN
+	1    2300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 64F1A1B6
+P 1950 850
+F 0 "R4" V 2146 850 50  0000 C CNN
+F 1 "3k" V 2055 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1950 850 50  0001 C CNN
+F 3 "~" H 1950 850 50  0001 C CNN
+	1    1950 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 850  1300 850 
+Wire Wire Line
+	1850 850  1500 850 
+Connection ~ 1500 850 
+Wire Wire Line
+	1500 850  1500 950 
+Wire Wire Line
+	2050 850  2300 850 
+Wire Wire Line
+	2300 850  2300 1000
+Wire Wire Line
+	1500 850  1500 1000
+Wire Wire Line
+	1050 850  950  850 
+Wire Wire Line
+	850  850  700  850 
+Wire Wire Line
+	700  850  700  1450
+Wire Wire Line
+	700  1450 1200 1450
+Wire Wire Line
+	2300 1450 2300 1300
+Wire Wire Line
+	1500 1200 1500 1450
+Connection ~ 1500 1450
+Wire Wire Line
+	1500 1450 2300 1450
+Wire Wire Line
+	850  850  950  850 
+Connection ~ 850  850 
+Connection ~ 950  850 
+$Comp
+L power:+12V #PWR02
+U 1 1 64F1D31D
+P 1300 850
+F 0 "#PWR02" H 1300 700 50  0001 C CNN
+F 1 "+12V" H 1315 1023 50  0000 C CNN
+F 2 "" H 1300 850 50  0001 C CNN
+F 3 "" H 1300 850 50  0001 C CNN
+	1    1300 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 850 
+Wire Wire Line
+	1300 850  1500 850 
+$Comp
+L power:GND #PWR01
+U 1 1 64F1E41D
+P 1200 1450
+F 0 "#PWR01" H 1200 1200 50  0001 C CNN
+F 1 "GND" H 1205 1277 50  0000 C CNN
+F 2 "" H 1200 1450 50  0001 C CNN
+F 3 "" H 1200 1450 50  0001 C CNN
+	1    1200 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 1450
+Wire Wire Line
+	1200 1450 1500 1450
+$Comp
+L power:GND #PWR03
+U 1 1 64F1EE31
+P 6650 4400
+F 0 "#PWR03" H 6650 4150 50  0001 C CNN
+F 1 "GND" H 6655 4227 50  0000 C CNN
+F 2 "" H 6650 4400 50  0001 C CNN
+F 3 "" H 6650 4400 50  0001 C CNN
+	1    6650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2550 3050 3150
+Wire Wire Line
+	3050 3150 3300 3150
+Wire Wire Line
+	3900 3150 4150 3150
+Wire Wire Line
+	4150 3000 4150 3150
+Connection ~ 4150 3150
+Wire Wire Line
+	4150 3150 4300 3150
+Wire Wire Line
+	4150 2550 4050 2550
+Wire Wire Line
+	4150 2550 4150 2800
+Wire Wire Line
+	3050 2350 3050 2000
+Wire Wire Line
+	3050 2000 4150 2000
+Wire Wire Line
+	4150 2000 4150 2350
+Wire Wire Line
+	4150 2350 4050 2350
+Wire Wire Line
+	4050 2450 4150 2450
+Wire Wire Line
+	4150 2450 4150 2350
+Connection ~ 4150 2350
+Wire Wire Line
+	4150 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 2400
+Connection ~ 4150 2000
+Wire Wire Line
+	5100 2600 5100 3150
+Wire Wire Line
+	5100 3150 4900 3150
+Wire Wire Line
+	5300 3150 5100 3150
+Connection ~ 5100 3150
+Wire Wire Line
+	5500 3150 5650 3150
+Wire Wire Line
+	5950 3350 5950 3450
+Wire Wire Line
+	5950 3450 6200 3450
+Wire Wire Line
+	6750 3750 6500 3750
+Wire Wire Line
+	6500 3650 6500 3750
+Wire Wire Line
+	5950 2950 6500 2950
+Wire Wire Line
+	7050 2950 7050 3550
+Wire Wire Line
+	6500 3250 6500 2950
+Connection ~ 6500 2950
+Wire Wire Line
+	6500 2950 7050 2950
+Wire Wire Line
+	2300 850  7050 850 
+Wire Wire Line
+	7050 850  7050 2950
+Connection ~ 2300 850 
+Connection ~ 7050 2950
+Wire Wire Line
+	6650 4400 6650 4250
+Wire Wire Line
+	6650 4250 7050 4250
+Wire Wire Line
+	7050 4150 7050 3950
+Wire Wire Line
+	7050 4450 7050 4350
+Wire Wire Line
+	7050 4250 7050 4350
+Connection ~ 7050 4250
+Connection ~ 7050 4350
+$EndSCHEMATC
