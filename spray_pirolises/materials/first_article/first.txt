@@ -1,0 +1,3 @@
+The gas sensing capabilities of metal oxides was first observed by Seiyama et al
+ in 1962[1].
+T. Seiyama, A. Kato, M. Nagatani,Anal. Chem. 34 ( 1962) 1502.

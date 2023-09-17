@@ -1,0 +1,4 @@
+2006_oja: https://doi.org/10.1016/j.tsf.2005.12.243
+2002_castaneda: https://doi.org/10.1016/S0254-0584(02)00193-1
+1999_golego: https://doi.org/10.1557/JMR.1999.0095
+1996_aoki: https://doi.org/10.1149/1.1837082
